@@ -136,7 +136,6 @@ dmypy.json
 *.python
 *.zip
 *.pth
-*.png
 checkpoints_final/
 media/
 submission/
