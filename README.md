@@ -2,14 +2,9 @@
 
 ## Description
 
-This repository contains our submission to the [FLAME AI 2023 Challenge](https://www.kaggle.com/competitions/2023-flame-ai-challenge/overview).  
-The challenge required us to perform super-resolution on low-resolution 2D flowfield images to reconstruct high-resolution versions of these flowfields.
+This repository contains our submission to the [ML Challenge](https://www.kaggle.com/competitions/2023-flame-ai-challenge/overview) organized by the [Stanford FLAME AI 2023 Workshop](https://flame-ai-workshop.github.io/).  
+The challenge's objective is to perform super-resolution on low-resolution 2D flowfield images to reconstruct high-resolution versions of these flowfields.  
 <img src="./images/illustration.png" alt="Illustration" width="400"/>
-
-
-## Team Members
-- Louis Serrano, ISIR, Sorbonne Université
-- Thomas X Wang, ISIR, Sorbonne Université
 
 
 ## Requirements
@@ -17,7 +12,7 @@ This code is written in python, and needs pytorch and torchvision to run. It is 
 
 
 ## Installation
-- Clone the repo
+- Clone this repository
 - Copy the [data](https://www.kaggle.com/competitions/2023-flame-ai-challenge/data) from the challenge to the `data` folder. The folder structure should be as follows:
 ```
 data
@@ -49,6 +44,11 @@ The model achieves a L2 loss of :
 The best individual model `vxyhe45d` achieves a L2 loss of:
 - 0.00600 on the private test set.
 - 0.00478 on the validation set
+
+
+## Team Members
+- Louis Serrano, ISIR, Sorbonne Université
+- Thomas X Wang, ISIR, Sorbonne Université
 
 
 ## Acknowledgements
