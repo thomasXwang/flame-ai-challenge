@@ -134,7 +134,6 @@ dmypy.json
 /jupyter
 .vscode/
 *.python
-*.csv
 *.zip
 *.pth
 *.png
